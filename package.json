@@ -4,10 +4,13 @@
   "description"  : "Scrape le web.",
   "main"         : "server.js",
   "author"       : "Scotch",
+  "start": "node server.js",
   "dependencies" : {
     "express"    : "latest",
     "request"    : "latest",
-    "cheerio"    : "latest",
-    "form-scraper": "latest"
+    "jsdom": ">= 0.1.23 < 4.0.0",
+    "http-agent":"latest",
+    "request": "latest",
+    "phantomjs": "latest"
   }
 }
